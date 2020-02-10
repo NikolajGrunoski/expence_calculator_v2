@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Aleksandar1204/final_project_expences_calculator.git"
+    "url": "git+https://github.com/NikolajGrunoski/expence_calculator_v2"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Aleksandar1204/final_project_expences_calculator/issues"
+    "url": "https://github.com/NikolajGrunoski/expence_calculator_v2"
   },
-  "homepage": "https://github.com/Aleksandar1204/final_project_expences_calculator#readme",
+  "homepage": "https://github.com/NikolajGrunoski/expence_calculator_v2",
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "cors": "^2.8.5",
