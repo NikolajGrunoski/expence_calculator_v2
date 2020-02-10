@@ -23,7 +23,7 @@ class Table extends React.Component {
     }
 
     deleteProduct = (_id) => {
-        axios.delete(`https://hidden-everglades-59214.herokuapp.com/app/v1/products/${_id}`,
+        axios.delete(`/app/v1/products/${_id}`,
             {
                 headers: {
                     'Authorization': `Bearer ${localStorage.getItem('jwt')}`

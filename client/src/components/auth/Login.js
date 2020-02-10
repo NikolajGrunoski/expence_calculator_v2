@@ -31,7 +31,7 @@ class Login extends React.Component {
 
     logIn = (event) => {
         event.preventDefault();
-        axios.post('https://hidden-everglades-59214.herokuapp.com/app/v1/auth/login', {
+        axios.post('/app/v1/auth/login', {
             email: this.state.email,
             password: this.state.password
         })

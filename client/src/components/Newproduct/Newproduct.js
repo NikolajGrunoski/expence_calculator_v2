@@ -45,7 +45,7 @@ class Newproduct extends React.Component {
             this.state.type !== '' ||
             this.state.date !== '' ||
             this.state.price !== '') {
-            axios.post('https://hidden-everglades-59214.herokuapp.com/app/v1/products/', {
+            axios.post('/app/v1/products/', {
                 name: this.state.name,
                 description: this.state.description,
                 type: this.state.type,
@@ -76,7 +76,7 @@ class Newproduct extends React.Component {
             event.preventDefault()
         } else {
             store.dispatch(tableUpdated(!this.state.tableUpdated))
-            axios.put(`https://hidden-everglades-59214.herokuapp.com/app/v1/products/${this.props.productToEdit._id}`,
+            axios.put(`/app/v1/products/${this.props.productToEdit._id}`,
                 {
                     name: this.state.name,
                     type: this.state.type,
