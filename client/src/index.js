@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Products from './components/calculator/Products'
+import Newproduct from './components/Newproduct/Newproduct'
 import Products from './components/calculator/Products'
 import Login from './components/auth/Login'
 import Register from './components/auth/Register'
