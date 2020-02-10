@@ -1,0 +1,49 @@
+
+
+.footer{
+    position:fixed;
+    opacity:0.7;
+    background: rgba(0, 0, 0, 0.59);
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    right: 0px
+}
+
+.alert-box{
+    background: #fff;
+    width: 440px;
+    height: 225px;
+    padding: 40px;
+    border-radius: 10px;
+    position: fixed;
+    left: 400px;
+    top: 200px;
+  
+}
+
+.p-header{
+    font-weight: bold;
+    font-size: 22px;
+    color: #576574;
+    padding-bottom: 15px;
+}
+
+p{
+    color: #576574;;
+    font-size: 18px;
+}
+
+.alert-buttons{
+    position: absolute;
+    bottom: 35px;
+    right: 50px;
+}
+
+.cancel-button:hover{
+    background: #dee2ddf5
+}
+
+.delete-button:hover{
+    background: #ee4141
+}

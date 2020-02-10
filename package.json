@@ -1,0 +1,32 @@
+{
+  "name": "final_project_expences_calculator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "heroku-postbuild": "cd client && npm install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aleksandar1204/final_project_expences_calculator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Aleksandar1204/final_project_expences_calculator/issues"
+  },
+  "homepage": "https://github.com/Aleksandar1204/final_project_expences_calculator#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-jwt": "^5.3.1",
+    "http-proxy": "^1.18.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.7.8",
+    "node-input-validator": "^4.1.0",
+    "randomstring": "^1.1.5"
+  }
+}

@@ -1,0 +1,85 @@
+header {
+    width: 100%;
+    display: flex;
+    background-color: #fff;
+    justify-content: space-between;
+    min-height: 75px;
+    margin-bottom: 30px;
+}
+.nav {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    align-content: center;
+    align-items: center;
+}
+.buttons {
+    font-size: 15px;
+    width: 100%;
+    align-content: center;
+    align-items: center;
+    margin-left: 120px;
+    flex-wrap: nowrap;
+    
+    
+}
+
+.btn-links{
+    cursor: pointer;
+    border: 1.5px solid #576574;
+    color: #576574;
+    background-color: white;
+    min-width: 14%;
+    text-transform: uppercase;
+    padding: 12px 10px;
+    border-radius: 5px;
+    font-weight: 700;
+    background:transparent;
+    text-decoration: none;
+    height: 50px;
+    margin:10px
+    
+}
+
+
+.active {
+    background-color: white;
+    background:transparent;
+    color: #1DD1A1;
+    border-color: #1DD1A1;
+}
+span,p {
+    color: black;
+}
+
+.right-side {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 200px;
+    align-items: center;
+}
+
+.right-side a {
+    text-decoration: none;
+    color: inherit;
+
+}
+
+#profile-image {
+    width: 25px;
+    height: 25px;
+}
+
+.sign-out {
+    margin-left: 20px;
+}
+.user-info {
+    margin-left: 20px;
+}
+
+#name-p {
+    padding-right: 5px;
+    border-right: 1px solid black;
+    margin-right: 0;
+}
