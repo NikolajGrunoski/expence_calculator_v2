@@ -26,7 +26,7 @@ class Expenses extends React.Component {
             'September', 'October', 'November', 'December'];
     }
     componentDidMount(){
-        axios.get("https://stormy-sands-58560.herokuapp.com/app/v1/products/?sort=date:desc", 
+        axios.get("https://expence-calculator.herokuapp.com/app/v1/products/?sort=date:desc", 
         { headers: {"Authorization" : `Bearer ${localStorage.getItem('jwt')}`}})
         .then(res=>{
             store.dispatch(getProducts(res.data))
@@ -44,7 +44,7 @@ class Expenses extends React.Component {
   
     componentDidUpdate() {
         if (this.state.yearlySelected === 'all') {
-            axios.get("https://stormy-sands-58560.herokuapp.com/app/v1/products/?sort=date:desc",
+            axios.get("https://expence-calculator.herokuapp.com/app/v1/products/?sort=date:desc",
                 {
                     headers: {
                         'Authorization': `Bearer ${localStorage.getItem('jwt')}`
@@ -69,7 +69,7 @@ class Expenses extends React.Component {
             let dateFrom = new Date(`${this.state.yearlySelected}-01-01 00:00:00.000`).getTime()
             let dateTo = new Date(`${this.state.yearlySelected}-12-31 23:59:59.000`).getTime()
             console.log(dateFrom + ' ' + dateTo)
-            axios.get(`https://stormy-sands-58560.herokuapp.com/app/v1/products/?date_from=${dateFrom}&date_to=${dateTo}`,
+            axios.get(`https://expence-calculator.herokuapp.com/app/v1/products/?date_from=${dateFrom}&date_to=${dateTo}`,
                 {
                     headers: {
                         'Authorization': `Bearer ${localStorage.getItem('jwt')}`
@@ -85,7 +85,7 @@ class Expenses extends React.Component {
                 })
                 .catch(err => console.log(err));
             } else if (this.state.monthlySelected === 'months') {
-                axios.get("https://stormy-sands-58560.herokuapp.com/app/v1/products/?sort=date:desc",
+                axios.get("https://expence-calculator.herokuapp.com/app/v1/products/?sort=date:desc",
                     {
                         headers: {
                             'Authorization': `Bearer ${localStorage.getItem('jwt')}`
@@ -121,7 +121,7 @@ class Expenses extends React.Component {
             let dateTo = new Date(`${this.state.yearlySelected}-${monthNum}-31 23:59:59.000`).getTime()
             console.log(dateFrom + " " + dateTo)
             console.log(monthNum + 'Month is')
-            axios.get(`https://stormy-sands-58560.herokuapp.com/app/v1/products/?date_from=${dateFrom}&date_to=${dateTo}`,
+            axios.get(`https://expence-calculator.herokuapp.com/app/v1/products/?date_from=${dateFrom}&date_to=${dateTo}`,
                 {
                     headers: {
                         'Authorization': `Bearer ${localStorage.getItem('jwt')}`

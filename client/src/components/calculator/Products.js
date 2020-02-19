@@ -24,7 +24,7 @@ class Products extends React.Component {
 
     componentDidMount() {
         if (this.props.products){
-        axios.get('https://stormy-sands-58560.herokuapp.com/app/v1/products/?sort=date:desc',
+        axios.get('https://expence-calculator.herokuapp.com/app/v1/products/?sort=date:desc',
         {
             headers: {
                 'Authorization': `Bearer ${localStorage.getItem('jwt')}`
@@ -49,7 +49,7 @@ class Products extends React.Component {
     componentDidUpdate() {
         if(this.state.didUpdate === true){
         if(this.state.filterOption == null){
-        axios.get('https://stormy-sands-58560.herokuapp.com/app/v1/products/?sort=date:desc',
+        axios.get('https://expence-calculator.herokuapp.com/app/v1/products/?sort=date:desc',
         {
             headers: {
                 'Authorization': `Bearer ${localStorage.getItem('jwt')}`
@@ -65,7 +65,7 @@ class Products extends React.Component {
         })
         this.setState({didUpdate: false})
     }else if(this.state.filterOption !== null) {
-        axios.get(`https://stormy-sands-58560.herokuapp.com/app/v1/products/?sort=${this.state.filterOption}`,
+        axios.get(`https://expence-calculator.herokuapp.com/app/v1/products/?sort=${this.state.filterOption}`,
             {
                 headers: {
                     'Authorization': `Bearer ${localStorage.getItem('jwt')}`
