@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 
 const Product = mongoose.model(
-    'product', 
+    'products', 
     new mongoose.Schema({
         name: String,
         description: String,
