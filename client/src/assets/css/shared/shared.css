@@ -38,17 +38,12 @@
     border-radius: 5px;
     height: 30px;
     padding: 0px 15px;
-    
-    
-    
-
 }
 
 .buttons-nav{
     position: relative;
     top: 40px;
     left: 60px;
-
 }
 
 .monthly-button{
@@ -59,8 +54,7 @@
     border-radius: 5px;
     height: 50px;
     padding: 0px 35px;
-    border: none; 
-   
+    border: none;   
 }
 
 .yearly-button{
@@ -101,8 +95,6 @@
     Font-size: 18px;
     Color: #8D8D8D;
     width: 100%;
-    
-
 }
 
 .text-field{
@@ -113,36 +105,27 @@
     border-radius: 5px;
     width: 80%;
     margin-top: 10px;
-    
-
 }
-
-
 
 .box-container{
     background: #fff;
     border-radius: 5px;
     padding-left: 25px;
     padding-bottom: 50px;
-    padding-top: 25px;
-    
-    
+    padding-top: 25px;  
 }
     
     
    
-.aditional-info {
-    
+.aditional-info { 
     color: #8D8D8D ;
     text-align: center;
-    width: 100%;
-    
+    width: 100%; 
 }
 
 a{
     color: #8D8D8D ;
   }
-
   a:hover{
       color: blue;
   }

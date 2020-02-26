@@ -18,10 +18,8 @@ header {
     width: 100%;
     align-content: center;
     align-items: center;
-    margin-left: 120px;
+    margin-left: 50px;
     flex-wrap: nowrap;
-    
-    
 }
 
 .btn-links{
@@ -41,7 +39,6 @@ header {
     
 }
 
-
 .active {
     background-color: white;
     background:transparent;
@@ -56,14 +53,13 @@ span,p {
     width: 100%;
     display: flex;
     justify-content: flex-end;
-    margin-right: 200px;
+    margin-right: 100px;
     align-items: center;
 }
 
 .right-side a {
     text-decoration: none;
     color: inherit;
-
 }
 
 #profile-image {

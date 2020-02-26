@@ -3,8 +3,6 @@ html, body {
     height: 100%;
     margin: 0px;
     font-family: 'Roboto', sans-serif;
-    
-    
 }
 
 #new-product{
@@ -14,14 +12,12 @@ html, body {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    flex-direction: column;
-   
+    flex-direction: column;  
 }
 
 .new-container{
     background-color: #E5EDF5;
     margin: 0px 30px;
-    
     padding-left: 60px;
     padding-right: 60px;
     display: flex;
@@ -31,8 +27,6 @@ html, body {
     padding-bottom: 120px;
     padding-top: 60px;
     margin-bottom: 30px;
-    
-   
 }
 
 .first-container{
@@ -42,7 +36,6 @@ html, body {
     border-radius: 10px 0px 0px 10px;
     padding-bottom: 40px;
     padding-top: 50px;
-    
 }
 
 .second-container{
@@ -56,10 +49,8 @@ html, body {
     
 }
 
-
 .products-add{
-    position: relative;
-    
+    position: relative;   
     top: 50%;;
 }
 
@@ -70,5 +61,4 @@ h1{
     position: relative;
     top: 60px;
     left: 90px;
-
 }

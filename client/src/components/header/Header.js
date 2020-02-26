@@ -7,7 +7,7 @@ import { saveUserName } from '../../redux/actions/userAction'
 import store from '../../redux/store'
 import { Redirect } from 'react-router-dom'
 import { connect } from 'react-redux'
-import Profile from '../../assets/images/small_profile.png'
+// import Profile from '../../assets/images/small_profile.png'
 
 
 class Header extends React.Component {
@@ -59,7 +59,7 @@ class Header extends React.Component {
                             <NavLink to='/expences' className='btn-links' onClick={this.expensesClicked}> Expenses</NavLink>
                         </div>
                         <div className="right-side">
-                        <img id="profile-image" src={Profile} alt="profile" />
+                        {/* <img id="profile-image" src={Profile} alt="profile" /> */}
                             <p id='name-p'>{this.state.name}</p>
                             <p className="sign-out"><Link to='#' onClick={this.signOutClicked}>Sign Out</Link></p>
                         </div>

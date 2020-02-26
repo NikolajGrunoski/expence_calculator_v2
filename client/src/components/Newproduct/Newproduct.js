@@ -1,10 +1,8 @@
 import React from 'react'
-
 import './Newproduct.css'
 import Header from '../header/Header'
 import { faPlusCircle } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-
 import { tableUpdated } from '../../redux/actions/productAction'
 import store from '../../redux/store'
 import { Link } from 'react-router-dom'
